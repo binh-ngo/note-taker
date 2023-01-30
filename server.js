@@ -1,5 +1,4 @@
-const fs = require("fs");
-const path = require("express");
+// Dependencies
 const express = require("express");
 
 // Initialize
@@ -9,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(__dirname));
+app.use(express.static('public'));
 
 require('./routes/routes')(app);
 

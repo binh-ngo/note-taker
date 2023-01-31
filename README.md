@@ -14,7 +14,7 @@
   ## Installation
       
   *Follow these steps to properly install this application:*
-    Clone the repository then type "npm i" to install all dependencies. Then type "node server.js" and go to "http://localhost:3000" in your preferred browser. You can also view this app on Heroku.
+    Clone the repository then type "npm i" to install all dependencies. Then type "node server.js" and go to "http://localhost:3000" in your preferred browser. You can also view this app on [Heroku](https://binh-note-taker.herokuapp.com/).
         
   ## Questions
         
